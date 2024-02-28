@@ -11,7 +11,7 @@ def hcf (*argv):
     for i in range (1, len(m)):
         s = s.intersection(set(m[i]))
     l = list(s)
-    return max(s)
+    return f"The highest common factor of your numbers is {max(l)}."
 
 print(hcf (4, 8, 7))
 print(hcf (12, 24, 48))
